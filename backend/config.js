@@ -1,5 +1,5 @@
-//backend/config.js
-const JWT_SECRET = "dakshsecret";
+const JWT_SECRET = "your-jwt-secret"; // Ensure this is your actual secret key
+
 module.exports = {
-	JWT_SECRET: "your-jwt-secret"
-}
+    JWT_SECRET
+};
